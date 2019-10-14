@@ -43,12 +43,14 @@ header {
     text-align: center;
 }
 
-.logo__content__icon {}
+.logo__content__icon {
+    font-size: 160%;
+}
 
 .logo__content__title {
     font-size: 400%;
     border: 5px solid white;
-    padding: 5px;
+    padding: 0 5px 0 5px;
     margin: 0;
     display: inline;
 }
@@ -74,13 +76,12 @@ nav ul li {
     color: white;
     text-transform: uppercase;
     line-height: 35px;
-    padding-left: 15px;
+    padding: 0 10px;
     font-weight: bold;
     font-size: 70%;
 }
 
 .content {
-    border: 1px solid black;
     margin: 10px 0 20px 0px;
 }
 
@@ -100,6 +101,11 @@ nav ul li {
 
 .side_left h3 {
     margin: 0;
+    display: inline-block;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 .rss_orange {
@@ -115,6 +121,10 @@ main {
     margin-right: 3%;
 }
 
+main h3 {
+    text-shadow: 2px 2px 2px #a2a2a2;
+}
+
 .side_right {
     width: 18%;
     float: left;
@@ -125,14 +135,16 @@ main {
 }
 
 .white_rounded {
-    font-size: 120%;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 110%;
     background-color: #f2f2f2;
     border-radius: 10px;
     padding: 10px;
 }
 
 .white_rounded h3 {
-    color: gray;
+    font-family: Verdana, Arial, sans-serif;
+    color: #5c5c5c;
     text-transform: capitalize;
 }
 

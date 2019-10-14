@@ -20,7 +20,7 @@
         <header>
             <div class="logo">
                 <div class=logo__content>
-                    <!-- <span class="logo__content__icon"><i class="fas fa-mountain"></i></span> -->
+                    <div class="logo__content__icon"><i class="fas fa-mountain"></i></div>
                     <h1 class="logo__content__title">natural</h1>
                     <h3 class="logo__content__subtitle">another beautiful organic theme</h3>
                 </div>
@@ -45,11 +45,19 @@
 
             <!-- sidebar di sinistra -->
             <aside class="side_left white_rounded">
-                <div style="border: 2px solid green;">
-                    <span style="border: 1px solid red;"><i class="fas fa-rss rss_orange"></i></span>
-                    <span style=" border: 1px solid purple;">organic</span>
-                    <div style="border: 1px solid purple;">themes</div>
+                <!-- ******************************************* -->
+                <!-- DA SISTEMARE CON SOLUZIONE PIU' ACCETTABILE -->
+                <div>
+                    <span><i class="fas fa-rss rss_orange"></i></span>
+                    <h3>organic</h3>
+                    <br>
+                    <!-- inserisco uno span copia di quello sopra
+                    poi lo rendo invisibile lasciando però che occopi il suo spazio
+                    fa' da "filler" per incolonnare il testo -->
+                    <span><i class="fas fa-rss rss_orange hidden"></i></span>
+                    <h3>themes</h3>
                 </div>
+                <!-- ******************************************* -->
 
                 <p>left sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <p>Eveniet, unde, quae autem asperiores aspernatur</p>
@@ -81,7 +89,7 @@
                 </div>
             </aside>
 
-        </div> <!-- contenuto principale -->
+        </div> <!-- content -->
 
         <footer class="white_rounded">
             <p>
